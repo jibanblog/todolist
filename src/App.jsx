@@ -115,7 +115,7 @@ const App = () =>{
 
        
     
-     const [newValue, SetNewValue] = useState('Buy Mango');
+     const [newValue, SetNewValue] = useState('');
      const [newList, setNewList] = useState([]);
 
      const ChangeList = (event) =>{
